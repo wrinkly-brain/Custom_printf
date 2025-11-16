@@ -8,7 +8,7 @@ This project recreates the `printf()` function from the C standard library. It d
 - Builds output string manually before printing
 ## Flowchart
 
-![Flow chart](src/flow_chart.png)
+![Flow chart](flow_chart.png)
 
 ## How It Works
 
