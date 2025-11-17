@@ -15,14 +15,14 @@ This project recreates the `printf()` function from the C standard library. It d
 The `customPrint()` function first checks if the input string is `NULL`. If so, it prints an error and exits. Otherwise, it loops through the string character by character and builds a new output string.
 
 When it encounters a `%` symbol, it checks the next character:
-- If it's a valid format specifier, it converts the corresponding argument to a string and appends it.
+- If it's a valid format specifier, it converts the corresponding argument to a string and appends it to the new string.
 - If it's not valid, it appends the `%` symbol to the new string.
 
 After processing, the final string is passed to `printString()`, which prints each character to the terminal.
 
 ## Usage
 
-Call `customPrint()` with a format string and corresponding arguments. Use `%s` for strings, `%c` for characters, and `%d` for integers.
+Call `customPrint()` with a format string and corresponding arguments.
 
 Example:
 ```c
