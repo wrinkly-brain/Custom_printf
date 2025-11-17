@@ -53,4 +53,5 @@ Run the compiled program file:
 
 ## Authors
 
-This project was made by Jerry Todd and Jonas Mast.
+- [Jerry Todd](https://github.com/Jerry-Todd)
+- Jonas Mast
